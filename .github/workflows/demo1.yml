@@ -14,10 +14,9 @@ on:
   push:
     branches:
       - master
-      - 'dev-*'
+      - 'dev*'
       - 'feat/**'
-    paths-ignore:
-      - '.github/**' 
+      
 jobs:
   deploy:
     runs-on: ubuntu-latest
