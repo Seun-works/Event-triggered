@@ -1,8 +1,11 @@
 import '@testing-library/jest-dom';
+
 import { render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 
 import MainContent from './MainContent';
+import userEvent from '@testing-library/user-event';
+
+// mY TESTS
 
 describe('MainContent', () => {
   it('should render a button', () => {
